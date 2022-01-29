@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Rengetsu
+ * @author Beylix
  */
 public class GameStartScreen extends javax.swing.JFrame {
 

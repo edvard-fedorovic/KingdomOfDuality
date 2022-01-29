@@ -7,7 +7,7 @@ package kingdomofduality;
 
 /**
  *
- * @author Rengetsu
+ * @author Beylix
  */
 public class GameMain {
     //  0   -   Nothing, 1   -   Black, 2   -   White

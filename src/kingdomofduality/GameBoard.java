@@ -7,7 +7,7 @@ package kingdomofduality;
 
 /**
  *
- * @author Rengetsu
+ * @author Beylix
  */
 public class GameBoard extends javax.swing.JFrame {
 
