@@ -37,7 +37,21 @@ public class GameBoard extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         Map_0_0 = new javax.swing.JLabel();
+        Map_0_2 = new javax.swing.JLabel();
+        Map_0_3 = new javax.swing.JLabel();
+        Map_0_4 = new javax.swing.JLabel();
+        Map_0_5 = new javax.swing.JLabel();
+        Map_0_6 = new javax.swing.JLabel();
+        Map_0_7 = new javax.swing.JLabel();
         Map_0_1 = new javax.swing.JLabel();
+        Map_1_0 = new javax.swing.JLabel();
+        Map_1_1 = new javax.swing.JLabel();
+        Map_1_2 = new javax.swing.JLabel();
+        Map_1_3 = new javax.swing.JLabel();
+        Map_1_4 = new javax.swing.JLabel();
+        Map_1_5 = new javax.swing.JLabel();
+        Map_1_6 = new javax.swing.JLabel();
+        Map_1_7 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -55,10 +69,69 @@ public class GameBoard extends javax.swing.JFrame {
         Map_0_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
-        Map_0_0.setPreferredSize(new java.awt.Dimension(50, 50));
         Map_0_0.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Map_0_0MouseClicked(evt);
+            }
+        });
+
+        Map_0_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_2.setForeground(new java.awt.Color(255, 255, 255));
+        Map_0_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_0_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_0_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_0_2MouseClicked(evt);
+            }
+        });
+
+        Map_0_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_3.setForeground(new java.awt.Color(255, 255, 255));
+        Map_0_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_0_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_0_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_0_3MouseClicked(evt);
+            }
+        });
+
+        Map_0_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_4.setForeground(new java.awt.Color(255, 255, 255));
+        Map_0_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_0_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_0_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_0_4MouseClicked(evt);
+            }
+        });
+
+        Map_0_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_5.setForeground(new java.awt.Color(255, 255, 255));
+        Map_0_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_0_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_0_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_0_5MouseClicked(evt);
+            }
+        });
+
+        Map_0_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_6.setForeground(new java.awt.Color(255, 255, 255));
+        Map_0_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_0_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_0_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_0_6MouseClicked(evt);
+            }
+        });
+
+        Map_0_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_7.setForeground(new java.awt.Color(255, 255, 255));
+        Map_0_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_0_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_0_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_0_7MouseClicked(evt);
             }
         });
 
@@ -66,6 +139,91 @@ public class GameBoard extends javax.swing.JFrame {
         Map_0_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_0_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_0_1MouseClicked(evt);
+            }
+        });
+
+        Map_1_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_0.setForeground(new java.awt.Color(255, 255, 255));
+        Map_1_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_1_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_1_0.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_1_0MouseClicked(evt);
+            }
+        });
+
+        Map_1_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_1.setForeground(new java.awt.Color(255, 255, 255));
+        Map_1_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_1_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_1_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_1_1MouseClicked(evt);
+            }
+        });
+
+        Map_1_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_2.setForeground(new java.awt.Color(255, 255, 255));
+        Map_1_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_1_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_1_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_1_2MouseClicked(evt);
+            }
+        });
+
+        Map_1_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_3.setForeground(new java.awt.Color(255, 255, 255));
+        Map_1_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_1_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_1_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_1_3MouseClicked(evt);
+            }
+        });
+
+        Map_1_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_4.setForeground(new java.awt.Color(255, 255, 255));
+        Map_1_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_1_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_1_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_1_4MouseClicked(evt);
+            }
+        });
+
+        Map_1_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_5.setForeground(new java.awt.Color(255, 255, 255));
+        Map_1_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_1_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_1_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_1_5MouseClicked(evt);
+            }
+        });
+
+        Map_1_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_6.setForeground(new java.awt.Color(255, 255, 255));
+        Map_1_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_1_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_1_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_1_6MouseClicked(evt);
+            }
+        });
+
+        Map_1_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_7.setForeground(new java.awt.Color(255, 255, 255));
+        Map_1_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Map_1_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_1_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Map_1_7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -73,22 +231,66 @@ public class GameBoard extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Map_0_0, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Map_0_1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(346, 346, 346))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(Map_0_0)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_0_1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_0_2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_0_3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_0_4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_0_5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_0_6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_0_7))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(Map_1_0)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_1_1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_1_2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_1_3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_1_4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_1_5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_1_6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Map_1_7)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(Map_0_7)
+                    .addComponent(Map_0_0)
                     .addComponent(Map_0_1)
-                    .addComponent(Map_0_0, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(Map_0_2)
+                    .addComponent(Map_0_3)
+                    .addComponent(Map_0_4)
+                    .addComponent(Map_0_5)
+                    .addComponent(Map_0_6))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Map_1_1)
+                    .addComponent(Map_1_2)
+                    .addComponent(Map_1_0)
+                    .addComponent(Map_1_3)
+                    .addComponent(Map_1_4)
+                    .addComponent(Map_1_5)
+                    .addComponent(Map_1_6)
+                    .addComponent(Map_1_7))
+                .addContainerGap(350, Short.MAX_VALUE))
         );
-
-        Map_0_0.getAccessibleContext().setAccessibleName("");
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -132,7 +334,7 @@ public class GameBoard extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(playerNameLabelPCAI))
-                .addContainerGap(362, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -140,9 +342,9 @@ public class GameBoard extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(6, 6, 6)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -160,8 +362,71 @@ public class GameBoard extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Map_0_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_0MouseClicked
-        Map_0_0.setIcon(changeToWhiteStone());
+        //  ProizolXod();
+        //  Rascet matricu 8 x 8 ();
+        //  Pererisoviem ekran();
+        Map_0_0.setIcon(changeToBlackStone());
     }//GEN-LAST:event_Map_0_0MouseClicked
+
+    private void Map_0_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_5MouseClicked
+       Map_0_5.setIcon(changeToBlackStone());
+    }//GEN-LAST:event_Map_0_5MouseClicked
+
+    private void Map_0_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_6MouseClicked
+        Map_0_6.setIcon(changeToBlackStone());
+    }//GEN-LAST:event_Map_0_6MouseClicked
+
+    private void Map_0_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_7MouseClicked
+        Map_0_7.setIcon(changeToBlackStone());
+    }//GEN-LAST:event_Map_0_7MouseClicked
+
+    private void Map_0_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_1MouseClicked
+        Map_0_1.setIcon(changeToBlackStone());
+    }//GEN-LAST:event_Map_0_1MouseClicked
+
+    private void Map_0_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_3MouseClicked
+        Map_0_3.setIcon(changeToBlackStone());
+    }//GEN-LAST:event_Map_0_3MouseClicked
+
+    private void Map_0_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_4MouseClicked
+        Map_0_4.setIcon(changeToBlackStone());
+    }//GEN-LAST:event_Map_0_4MouseClicked
+
+    private void Map_0_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_2MouseClicked
+        Map_0_2.setIcon(changeToBlackStone());
+    }//GEN-LAST:event_Map_0_2MouseClicked
+
+    private void Map_1_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_0MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Map_1_0MouseClicked
+
+    private void Map_1_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Map_1_1MouseClicked
+
+    private void Map_1_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_2MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Map_1_2MouseClicked
+
+    private void Map_1_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_3MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Map_1_3MouseClicked
+
+    private void Map_1_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_4MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Map_1_4MouseClicked
+
+    private void Map_1_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_5MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Map_1_5MouseClicked
+
+    private void Map_1_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_6MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Map_1_6MouseClicked
+
+    private void Map_1_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_7MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Map_1_7MouseClicked
 
     public ImageIcon changeToWhiteStone()
     {
@@ -231,7 +496,21 @@ public class GameBoard extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JLabel Map_0_0;
-    private javax.swing.JLabel Map_0_1;
+    public javax.swing.JLabel Map_0_1;
+    private javax.swing.JLabel Map_0_2;
+    private javax.swing.JLabel Map_0_3;
+    private javax.swing.JLabel Map_0_4;
+    public javax.swing.JLabel Map_0_5;
+    public javax.swing.JLabel Map_0_6;
+    public javax.swing.JLabel Map_0_7;
+    public javax.swing.JLabel Map_1_0;
+    public javax.swing.JLabel Map_1_1;
+    public javax.swing.JLabel Map_1_2;
+    public javax.swing.JLabel Map_1_3;
+    public javax.swing.JLabel Map_1_4;
+    public javax.swing.JLabel Map_1_5;
+    public javax.swing.JLabel Map_1_6;
+    public javax.swing.JLabel Map_1_7;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
