@@ -74,8 +74,8 @@ public class GameMain {
     //  playerColor = false ->  white
     public void NewGame(boolean playerColor)
     {
+        GameBoard GB = new GameBoard();
         CreateArena();
         PlaceStartingStones();
-        GameProcess();
     }
 }
