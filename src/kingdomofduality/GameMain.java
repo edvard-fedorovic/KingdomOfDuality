@@ -99,15 +99,35 @@ public class GameMain {
         }
     }
     /////
-    public void GameCheckForEnd(int Color)
+    int [][] PointMatrix = new int[8][8];
+    
+    public boolean GameCheckForEnd(int Color)
     {
         for(int i = 0; i < 8; i++)
         {
             for(int j = 0; j < 8; j++)
             {
-                
+                if(GameArena[i][j] == 0)
+                {
+                    PointMatrix[i][j] = CheckForPointsUp(i, j, Color) + CheckForPointsRight(i, j, Color) + 
+                                        CheckForPointsDown(i, j, Color) + CheckForPointsLeft(i, j, Color) + 
+                                        CheckForPointsUpLeft(i, j, Color) + CheckForPointsUpRight(i, j, Color) + 
+                                        CheckForPointsDownRight(i, j, Color) + CheckForPointsDownLeft(i, j, Color);
+                }
+                else
+                    PointMatrix[i][j] = 0;
             }
         }
+        int PossibleMoves = 0;
+        for(int i = 0; i < 8; i++)
+        {
+            for(int j = 0; j < 8; j++)
+            {
+                if(PointMatrix[i][j] != 0) PossibleMoves++;
+            }
+        }
+        if(PossibleMoves != 0) return true;
+        else return false;
     }
     
     public int CheckForPointsUp(int i, int j, int Color)
@@ -176,20 +196,139 @@ public class GameMain {
     
     public int CheckForPointsUpLeft(int i, int j, int Color)
     {
-        for(int m = j-1; m>=0; m--)
+        if(i<=j)
         {
-            if(GameArena[i][m] == Color)
+            for(int m = 1; m<=i; m++)
             {
-                return j-m-1;
+                if(GameArena[i-m][j-m] == Color)
+                {
+                    return m-1;
+                }
+                else if(GameArena[i-m][j-m] == 0)
+                {
+                    return 0;
+                }
             }
-            else if(GameArena[i][m] == 0)
-            {
-                return 0;
-            }
+            return 0;
         }
-        return 0;
+        else
+        {
+            for(int m = 1; m<=j; m++)
+            {
+                if(GameArena[i-m][j-m] == Color)
+                {
+                    return m-1;
+                }
+                else if(GameArena[i-m][j-m] == 0)
+                {
+                    return 0;
+                }
+            }
+            return 0;
+        }
     }
     
+    public int CheckForPointsUpRight(int i, int j, int Color)
+    {
+        if(i>=(7-j))
+        {
+            for(int m = 1; m<=i; m++)
+            {
+                if(GameArena[i-m][j+m] == Color)
+                {
+                    return m-1;
+                }
+                else if(GameArena[i-m][j+m] == 0)
+                {
+                    return 0;
+                }
+            }
+            return 0;
+        }
+        else
+        {
+            for(int m = 1; m<=(7-j); m++)
+            {
+                if(GameArena[i-m][j+m] == Color)
+                {
+                    return m-1;
+                }
+                else if(GameArena[i-m][j+m] == 0)
+                {
+                    return 0;
+                }
+            }
+            return 0;
+        }
+    }
+    
+    public int CheckForPointsDownRight(int i, int j, int Color)
+    {
+        if(i<=j)
+        {
+            for(int m = 1; m<=(7-j); m++)
+            {
+                if(GameArena[i+m][j+m] == Color)
+                {
+                    return m-1;
+                }
+                else if(GameArena[i+m][j+m] == 0)
+                {
+                    return 0;
+                }
+            }
+            return 0;
+        }
+        else
+        {
+            for(int m = 1; m<=(7-i); m++)
+            {
+                if(GameArena[i+m][j+m] == Color)
+                {
+                    return m-1;
+                }
+                else if(GameArena[i+m][j+m] == 0)
+                {
+                    return 0;
+                }
+            }
+            return 0;
+        }
+    }
+    
+    public int CheckForPointsDownLeft(int i, int j, int Color)
+    {
+        if(j>=(7-i))
+        {
+            for(int m = 1; m<=(7-i); m++)
+            {
+                if(GameArena[i+m][j-m] == Color)
+                {
+                    return m-1;
+                }
+                else if(GameArena[i+m][j-m] == 0)
+                {
+                    return 0;
+                }
+            }
+            return 0;
+        }
+        else
+        {
+            for(int m = 1; m<=j; m++)
+            {
+                if(GameArena[i+m][j-m] == Color)
+                {
+                    return m-1;
+                }
+                else if(GameArena[i+m][j-m] == 0)
+                {
+                    return 0;
+                }
+            }
+            return 0;
+        }
+    }
     ////
     
     //  playerColor = true  ->  Black
