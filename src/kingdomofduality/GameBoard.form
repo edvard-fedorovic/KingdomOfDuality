@@ -42,12 +42,11 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Component id="jPanel2" max="32767" attributes="0"/>
-                  <Component id="jPanel1" max="32767" attributes="0"/>
-              </Group>
               <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              </Group>
           </Group>
       </Group>
     </DimensionLayout>
@@ -67,149 +66,154 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="Map_2_0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_2_0" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_2_1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_2_1" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_2_2" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_2_2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_2_3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_2_3" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_2_4" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_2_4" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_2_5" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_2_5" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_2_6" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_2_6" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_2_7" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_2_7" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="Map_0_0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_3_0" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_0_1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_3_1" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_0_2" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_3_2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_0_3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_3_3" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_0_4" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_3_4" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_0_5" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_3_5" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_0_6" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_3_6" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_0_7" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="Map_1_0" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_1_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_1_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_1_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_1_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_1_5" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_1_6" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_1_7" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="Map_3_0" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_3_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_3_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_3_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_3_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_3_5" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_3_6" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_3_7" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_3_7" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="1" max="-2" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="Map_5_0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_5_0" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="Map_5_1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_5_1" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_5_2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_5_2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_5_3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_5_3" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="Map_4_0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_4_0" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_4_1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_4_1" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_4_2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_4_2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_4_3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_4_3" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="Map_4_4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_4_4" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_4_5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_4_5" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_4_6" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_4_6" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_4_7" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_4_7" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
-                                  <Component id="Map_5_4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_5_4" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_5_5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_5_5" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_5_6" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_5_6" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Map_5_7" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Map_5_7" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="Map_6_0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_6_0" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_6_1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_6_1" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_6_2" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_6_2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_6_3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_6_3" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_6_4" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_6_4" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_6_5" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_6_5" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_6_6" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_6_6" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_6_7" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_6_7" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="Map_7_0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_7_0" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_7_1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_7_1" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_7_2" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_7_2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_7_3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_7_3" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_7_4" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_7_4" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_7_5" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_7_5" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_7_6" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_7_6" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Map_7_7" min="-2" max="-2" attributes="0"/>
+                          <Component id="Map_7_7" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="Map_0_0" max="-2" attributes="0"/>
+                              <Component id="Map_1_0" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Map_1_1" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_1_2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_1_3" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_1_4" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_1_5" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_1_6" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_1_7" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="Map_0_1" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_0_2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_0_3" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_0_4" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_0_5" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_0_6" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Map_0_7" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
@@ -220,94 +224,94 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="Map_0_7" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_0_0" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_0_1" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_0_2" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_0_3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_0_4" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_0_5" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_0_6" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Map_0_7" alignment="0" max="-2" attributes="0"/>
+                      <Component id="Map_0_2" alignment="0" max="-2" attributes="0"/>
+                      <Component id="Map_0_3" alignment="0" max="-2" attributes="0"/>
+                      <Component id="Map_0_4" alignment="0" max="-2" attributes="0"/>
+                      <Component id="Map_0_5" alignment="0" max="-2" attributes="0"/>
+                      <Component id="Map_0_6" alignment="0" max="-2" attributes="0"/>
+                      <Component id="Map_0_0" max="-2" attributes="0"/>
+                      <Component id="Map_0_1" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Map_1_1" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_1_2" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_1_0" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_1_3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_1_4" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_1_5" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_1_6" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_1_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="Map_1_1" max="-2" attributes="0"/>
+                      <Component id="Map_1_2" max="-2" attributes="0"/>
+                      <Component id="Map_1_0" max="-2" attributes="0"/>
+                      <Component id="Map_1_3" max="-2" attributes="0"/>
+                      <Component id="Map_1_4" max="-2" attributes="0"/>
+                      <Component id="Map_1_5" max="-2" attributes="0"/>
+                      <Component id="Map_1_6" max="-2" attributes="0"/>
+                      <Component id="Map_1_7" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Map_2_0" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_2_1" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_2_2" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_2_3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_2_4" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_2_5" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_2_6" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_2_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="Map_2_0" max="-2" attributes="0"/>
+                      <Component id="Map_2_1" max="-2" attributes="0"/>
+                      <Component id="Map_2_2" max="-2" attributes="0"/>
+                      <Component id="Map_2_3" max="-2" attributes="0"/>
+                      <Component id="Map_2_4" max="-2" attributes="0"/>
+                      <Component id="Map_2_5" max="-2" attributes="0"/>
+                      <Component id="Map_2_6" max="-2" attributes="0"/>
+                      <Component id="Map_2_7" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Map_3_0" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_3_1" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_3_2" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_3_3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_3_4" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_3_5" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_3_6" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_3_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="Map_3_0" max="-2" attributes="0"/>
+                      <Component id="Map_3_1" max="-2" attributes="0"/>
+                      <Component id="Map_3_2" max="-2" attributes="0"/>
+                      <Component id="Map_3_3" max="-2" attributes="0"/>
+                      <Component id="Map_3_4" max="-2" attributes="0"/>
+                      <Component id="Map_3_5" max="-2" attributes="0"/>
+                      <Component id="Map_3_6" max="-2" attributes="0"/>
+                      <Component id="Map_3_7" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Map_4_0" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_4_1" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_4_2" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_4_3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_4_4" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_4_5" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_4_6" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_4_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="Map_4_0" max="-2" attributes="0"/>
+                      <Component id="Map_4_1" max="-2" attributes="0"/>
+                      <Component id="Map_4_2" max="-2" attributes="0"/>
+                      <Component id="Map_4_3" max="-2" attributes="0"/>
+                      <Component id="Map_4_4" max="-2" attributes="0"/>
+                      <Component id="Map_4_5" max="-2" attributes="0"/>
+                      <Component id="Map_4_6" max="-2" attributes="0"/>
+                      <Component id="Map_4_7" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Map_5_0" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_5_3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_5_4" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_5_5" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_5_6" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_5_7" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_5_2" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_5_1" min="-2" max="-2" attributes="0"/>
+                      <Component id="Map_5_0" max="-2" attributes="0"/>
+                      <Component id="Map_5_3" max="-2" attributes="0"/>
+                      <Component id="Map_5_4" max="-2" attributes="0"/>
+                      <Component id="Map_5_5" max="-2" attributes="0"/>
+                      <Component id="Map_5_6" max="-2" attributes="0"/>
+                      <Component id="Map_5_7" max="-2" attributes="0"/>
+                      <Component id="Map_5_2" max="-2" attributes="0"/>
+                      <Component id="Map_5_1" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Map_6_0" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_6_1" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_6_2" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_6_3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_6_4" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_6_5" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_6_6" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_6_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="Map_6_0" max="-2" attributes="0"/>
+                      <Component id="Map_6_1" max="-2" attributes="0"/>
+                      <Component id="Map_6_2" max="-2" attributes="0"/>
+                      <Component id="Map_6_3" max="-2" attributes="0"/>
+                      <Component id="Map_6_4" max="-2" attributes="0"/>
+                      <Component id="Map_6_5" max="-2" attributes="0"/>
+                      <Component id="Map_6_6" max="-2" attributes="0"/>
+                      <Component id="Map_6_7" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Map_7_0" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_7_1" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_7_2" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_7_3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_7_4" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_7_5" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_7_6" min="-2" max="-2" attributes="0"/>
-                      <Component id="Map_7_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="Map_7_0" max="-2" attributes="0"/>
+                      <Component id="Map_7_1" max="-2" attributes="0"/>
+                      <Component id="Map_7_2" max="-2" attributes="0"/>
+                      <Component id="Map_7_3" max="-2" attributes="0"/>
+                      <Component id="Map_7_4" max="-2" attributes="0"/>
+                      <Component id="Map_7_5" max="-2" attributes="0"/>
+                      <Component id="Map_7_6" max="-2" attributes="0"/>
+                      <Component id="Map_7_7" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="26" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -316,7 +320,7 @@
         <Component class="javax.swing.JLabel" name="Map_0_0">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -336,7 +340,7 @@
         <Component class="javax.swing.JLabel" name="Map_0_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -349,11 +353,14 @@
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Map_0_2MouseClicked"/>
           </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="Map_0_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -366,11 +373,14 @@
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Map_0_3MouseClicked"/>
           </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="Map_0_4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -383,11 +393,14 @@
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Map_0_4MouseClicked"/>
           </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="Map_0_5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -407,7 +420,7 @@
         <Component class="javax.swing.JLabel" name="Map_0_6">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -427,7 +440,7 @@
         <Component class="javax.swing.JLabel" name="Map_0_7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -447,7 +460,7 @@
         <Component class="javax.swing.JLabel" name="Map_0_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -467,7 +480,7 @@
         <Component class="javax.swing.JLabel" name="Map_1_0">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -487,7 +500,7 @@
         <Component class="javax.swing.JLabel" name="Map_1_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -507,7 +520,7 @@
         <Component class="javax.swing.JLabel" name="Map_1_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -527,7 +540,7 @@
         <Component class="javax.swing.JLabel" name="Map_1_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -547,7 +560,7 @@
         <Component class="javax.swing.JLabel" name="Map_1_4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -567,7 +580,7 @@
         <Component class="javax.swing.JLabel" name="Map_1_5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -587,7 +600,7 @@
         <Component class="javax.swing.JLabel" name="Map_1_6">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -607,7 +620,7 @@
         <Component class="javax.swing.JLabel" name="Map_1_7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -627,7 +640,7 @@
         <Component class="javax.swing.JLabel" name="Map_2_0">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -647,7 +660,7 @@
         <Component class="javax.swing.JLabel" name="Map_2_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -667,7 +680,7 @@
         <Component class="javax.swing.JLabel" name="Map_2_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -687,7 +700,7 @@
         <Component class="javax.swing.JLabel" name="Map_2_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -707,7 +720,7 @@
         <Component class="javax.swing.JLabel" name="Map_2_4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -727,7 +740,7 @@
         <Component class="javax.swing.JLabel" name="Map_2_5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -747,7 +760,7 @@
         <Component class="javax.swing.JLabel" name="Map_2_6">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -767,7 +780,7 @@
         <Component class="javax.swing.JLabel" name="Map_2_7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -787,7 +800,7 @@
         <Component class="javax.swing.JLabel" name="Map_3_0">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -807,7 +820,7 @@
         <Component class="javax.swing.JLabel" name="Map_3_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -827,7 +840,7 @@
         <Component class="javax.swing.JLabel" name="Map_3_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -847,7 +860,7 @@
         <Component class="javax.swing.JLabel" name="Map_3_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -867,7 +880,7 @@
         <Component class="javax.swing.JLabel" name="Map_3_4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -876,6 +889,7 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/src/NoStone.png"/>
             </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Map_3_4MouseClicked"/>
@@ -887,7 +901,7 @@
         <Component class="javax.swing.JLabel" name="Map_3_5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -907,7 +921,7 @@
         <Component class="javax.swing.JLabel" name="Map_3_6">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -927,7 +941,7 @@
         <Component class="javax.swing.JLabel" name="Map_3_7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -947,7 +961,7 @@
         <Component class="javax.swing.JLabel" name="Map_4_0">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -967,7 +981,7 @@
         <Component class="javax.swing.JLabel" name="Map_4_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -987,7 +1001,7 @@
         <Component class="javax.swing.JLabel" name="Map_4_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1007,7 +1021,7 @@
         <Component class="javax.swing.JLabel" name="Map_4_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1027,7 +1041,7 @@
         <Component class="javax.swing.JLabel" name="Map_4_4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1047,7 +1061,7 @@
         <Component class="javax.swing.JLabel" name="Map_4_5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1067,7 +1081,7 @@
         <Component class="javax.swing.JLabel" name="Map_4_6">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1087,7 +1101,7 @@
         <Component class="javax.swing.JLabel" name="Map_4_7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1107,7 +1121,7 @@
         <Component class="javax.swing.JLabel" name="Map_5_0">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1127,7 +1141,7 @@
         <Component class="javax.swing.JLabel" name="Map_5_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1147,7 +1161,7 @@
         <Component class="javax.swing.JLabel" name="Map_5_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1167,7 +1181,7 @@
         <Component class="javax.swing.JLabel" name="Map_5_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1187,7 +1201,7 @@
         <Component class="javax.swing.JLabel" name="Map_5_4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1207,7 +1221,7 @@
         <Component class="javax.swing.JLabel" name="Map_5_5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1227,7 +1241,7 @@
         <Component class="javax.swing.JLabel" name="Map_5_6">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1247,7 +1261,7 @@
         <Component class="javax.swing.JLabel" name="Map_5_7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1267,7 +1281,7 @@
         <Component class="javax.swing.JLabel" name="Map_6_0">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1287,7 +1301,7 @@
         <Component class="javax.swing.JLabel" name="Map_6_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1307,7 +1321,7 @@
         <Component class="javax.swing.JLabel" name="Map_6_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1327,7 +1341,7 @@
         <Component class="javax.swing.JLabel" name="Map_6_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1347,7 +1361,7 @@
         <Component class="javax.swing.JLabel" name="Map_6_4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1367,7 +1381,7 @@
         <Component class="javax.swing.JLabel" name="Map_6_5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1387,7 +1401,7 @@
         <Component class="javax.swing.JLabel" name="Map_6_6">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1407,7 +1421,7 @@
         <Component class="javax.swing.JLabel" name="Map_6_7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1427,7 +1441,7 @@
         <Component class="javax.swing.JLabel" name="Map_7_0">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1447,7 +1461,7 @@
         <Component class="javax.swing.JLabel" name="Map_7_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1467,7 +1481,7 @@
         <Component class="javax.swing.JLabel" name="Map_7_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1487,7 +1501,7 @@
         <Component class="javax.swing.JLabel" name="Map_7_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1507,7 +1521,7 @@
         <Component class="javax.swing.JLabel" name="Map_7_4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1527,7 +1541,7 @@
         <Component class="javax.swing.JLabel" name="Map_7_5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1547,7 +1561,7 @@
         <Component class="javax.swing.JLabel" name="Map_7_6">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1567,7 +1581,7 @@
         <Component class="javax.swing.JLabel" name="Map_7_7">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1648,7 +1662,7 @@
                       <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="blackStonesNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="261" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

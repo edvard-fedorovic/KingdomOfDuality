@@ -5,12 +5,16 @@
  */
 package kingdomofduality;
 
+import java.beans.XMLDecoder;
+import java.io.ByteArrayInputStream;
 import java.io.File;
+import java.lang.reflect.Method;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
+import javax.swing.*;
 
 
 /**
@@ -19,15 +23,13 @@ import javax.swing.JOptionPane;
  */
 public class GameBoard extends javax.swing.JFrame {
 
-    
-    
     /**
      * Creates new form GameBoard
      */
     public GameBoard() {
         initComponents();
     }
-
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -119,7 +121,7 @@ public class GameBoard extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        Map_0_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_0.setBackground(new java.awt.Color(0, 0, 0));
         Map_0_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -129,7 +131,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_0_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_2.setBackground(new java.awt.Color(0, 0, 0));
         Map_0_2.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -139,7 +141,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_0_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_3.setBackground(new java.awt.Color(0, 0, 0));
         Map_0_3.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -149,7 +151,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_0_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_4.setBackground(new java.awt.Color(0, 0, 0));
         Map_0_4.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -159,7 +161,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_0_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_5.setBackground(new java.awt.Color(0, 0, 0));
         Map_0_5.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -169,7 +171,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_0_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_6.setBackground(new java.awt.Color(0, 0, 0));
         Map_0_6.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -179,7 +181,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_0_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_7.setBackground(new java.awt.Color(0, 0, 0));
         Map_0_7.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -189,7 +191,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_0_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_0_1.setBackground(new java.awt.Color(0, 0, 0));
         Map_0_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_0_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_0_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -199,7 +201,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_1_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_0.setBackground(new java.awt.Color(0, 0, 0));
         Map_1_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_1_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_1_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -209,7 +211,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_1_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_1.setBackground(new java.awt.Color(0, 0, 0));
         Map_1_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_1_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_1_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -219,7 +221,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_1_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_2.setBackground(new java.awt.Color(0, 0, 0));
         Map_1_2.setForeground(new java.awt.Color(255, 255, 255));
         Map_1_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_1_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -229,7 +231,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_1_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_3.setBackground(new java.awt.Color(0, 0, 0));
         Map_1_3.setForeground(new java.awt.Color(255, 255, 255));
         Map_1_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_1_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -239,7 +241,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_1_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_4.setBackground(new java.awt.Color(0, 0, 0));
         Map_1_4.setForeground(new java.awt.Color(255, 255, 255));
         Map_1_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_1_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -249,7 +251,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_1_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_5.setBackground(new java.awt.Color(0, 0, 0));
         Map_1_5.setForeground(new java.awt.Color(255, 255, 255));
         Map_1_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_1_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -259,7 +261,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_1_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_6.setBackground(new java.awt.Color(0, 0, 0));
         Map_1_6.setForeground(new java.awt.Color(255, 255, 255));
         Map_1_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_1_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -269,7 +271,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_1_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_1_7.setBackground(new java.awt.Color(0, 0, 0));
         Map_1_7.setForeground(new java.awt.Color(255, 255, 255));
         Map_1_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_1_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -279,7 +281,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_2_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_2_0.setBackground(new java.awt.Color(0, 0, 0));
         Map_2_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_2_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_2_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -289,7 +291,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_2_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_2_1.setBackground(new java.awt.Color(0, 0, 0));
         Map_2_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_2_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_2_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -299,7 +301,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_2_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_2_2.setBackground(new java.awt.Color(0, 0, 0));
         Map_2_2.setForeground(new java.awt.Color(255, 255, 255));
         Map_2_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_2_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -309,7 +311,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_2_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_2_3.setBackground(new java.awt.Color(0, 0, 0));
         Map_2_3.setForeground(new java.awt.Color(255, 255, 255));
         Map_2_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_2_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -319,7 +321,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_2_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_2_4.setBackground(new java.awt.Color(0, 0, 0));
         Map_2_4.setForeground(new java.awt.Color(255, 255, 255));
         Map_2_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_2_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -329,7 +331,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_2_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_2_5.setBackground(new java.awt.Color(0, 0, 0));
         Map_2_5.setForeground(new java.awt.Color(255, 255, 255));
         Map_2_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_2_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -339,7 +341,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_2_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_2_6.setBackground(new java.awt.Color(0, 0, 0));
         Map_2_6.setForeground(new java.awt.Color(255, 255, 255));
         Map_2_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_2_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -349,7 +351,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_2_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_2_7.setBackground(new java.awt.Color(0, 0, 0));
         Map_2_7.setForeground(new java.awt.Color(255, 255, 255));
         Map_2_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_2_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -359,7 +361,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_3_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_3_0.setBackground(new java.awt.Color(0, 0, 0));
         Map_3_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_3_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_3_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -369,7 +371,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_3_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_3_1.setBackground(new java.awt.Color(0, 0, 0));
         Map_3_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_3_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_3_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -379,7 +381,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_3_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_3_2.setBackground(new java.awt.Color(0, 0, 0));
         Map_3_2.setForeground(new java.awt.Color(255, 255, 255));
         Map_3_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_3_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -389,7 +391,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_3_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_3_3.setBackground(new java.awt.Color(0, 0, 0));
         Map_3_3.setForeground(new java.awt.Color(255, 255, 255));
         Map_3_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_3_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -399,17 +401,18 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_3_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_3_4.setBackground(new java.awt.Color(0, 0, 0));
         Map_3_4.setForeground(new java.awt.Color(255, 255, 255));
         Map_3_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_3_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
+        Map_3_4.setToolTipText("");
         Map_3_4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Map_3_4MouseClicked(evt);
             }
         });
 
-        Map_3_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_3_5.setBackground(new java.awt.Color(0, 0, 0));
         Map_3_5.setForeground(new java.awt.Color(255, 255, 255));
         Map_3_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_3_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -419,7 +422,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_3_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_3_6.setBackground(new java.awt.Color(0, 0, 0));
         Map_3_6.setForeground(new java.awt.Color(255, 255, 255));
         Map_3_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_3_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -429,7 +432,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_3_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_3_7.setBackground(new java.awt.Color(0, 0, 0));
         Map_3_7.setForeground(new java.awt.Color(255, 255, 255));
         Map_3_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_3_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -439,7 +442,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_4_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_4_0.setBackground(new java.awt.Color(0, 0, 0));
         Map_4_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_4_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_4_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -449,7 +452,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_4_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_4_1.setBackground(new java.awt.Color(0, 0, 0));
         Map_4_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_4_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_4_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -459,7 +462,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_4_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_4_2.setBackground(new java.awt.Color(0, 0, 0));
         Map_4_2.setForeground(new java.awt.Color(255, 255, 255));
         Map_4_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_4_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -469,7 +472,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_4_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_4_3.setBackground(new java.awt.Color(0, 0, 0));
         Map_4_3.setForeground(new java.awt.Color(255, 255, 255));
         Map_4_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_4_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -479,7 +482,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_4_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_4_4.setBackground(new java.awt.Color(0, 0, 0));
         Map_4_4.setForeground(new java.awt.Color(255, 255, 255));
         Map_4_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_4_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -489,7 +492,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_4_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_4_5.setBackground(new java.awt.Color(0, 0, 0));
         Map_4_5.setForeground(new java.awt.Color(255, 255, 255));
         Map_4_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_4_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -499,7 +502,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_4_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_4_6.setBackground(new java.awt.Color(0, 0, 0));
         Map_4_6.setForeground(new java.awt.Color(255, 255, 255));
         Map_4_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_4_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -509,7 +512,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_4_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_4_7.setBackground(new java.awt.Color(0, 0, 0));
         Map_4_7.setForeground(new java.awt.Color(255, 255, 255));
         Map_4_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_4_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -519,7 +522,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_5_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_5_0.setBackground(new java.awt.Color(0, 0, 0));
         Map_5_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_5_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_5_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -529,7 +532,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_5_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_5_1.setBackground(new java.awt.Color(0, 0, 0));
         Map_5_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_5_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_5_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -539,7 +542,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_5_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_5_2.setBackground(new java.awt.Color(0, 0, 0));
         Map_5_2.setForeground(new java.awt.Color(255, 255, 255));
         Map_5_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_5_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -549,7 +552,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_5_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_5_3.setBackground(new java.awt.Color(0, 0, 0));
         Map_5_3.setForeground(new java.awt.Color(255, 255, 255));
         Map_5_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_5_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -559,7 +562,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_5_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_5_4.setBackground(new java.awt.Color(0, 0, 0));
         Map_5_4.setForeground(new java.awt.Color(255, 255, 255));
         Map_5_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_5_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -569,7 +572,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_5_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_5_5.setBackground(new java.awt.Color(0, 0, 0));
         Map_5_5.setForeground(new java.awt.Color(255, 255, 255));
         Map_5_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_5_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -579,7 +582,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_5_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_5_6.setBackground(new java.awt.Color(0, 0, 0));
         Map_5_6.setForeground(new java.awt.Color(255, 255, 255));
         Map_5_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_5_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -589,7 +592,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_5_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_5_7.setBackground(new java.awt.Color(0, 0, 0));
         Map_5_7.setForeground(new java.awt.Color(255, 255, 255));
         Map_5_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_5_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -599,7 +602,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_6_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_6_0.setBackground(new java.awt.Color(0, 0, 0));
         Map_6_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_6_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_6_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -609,7 +612,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_6_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_6_1.setBackground(new java.awt.Color(0, 0, 0));
         Map_6_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_6_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_6_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -619,7 +622,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_6_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_6_2.setBackground(new java.awt.Color(0, 0, 0));
         Map_6_2.setForeground(new java.awt.Color(255, 255, 255));
         Map_6_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_6_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -629,7 +632,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_6_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_6_3.setBackground(new java.awt.Color(0, 0, 0));
         Map_6_3.setForeground(new java.awt.Color(255, 255, 255));
         Map_6_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_6_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -639,7 +642,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_6_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_6_4.setBackground(new java.awt.Color(0, 0, 0));
         Map_6_4.setForeground(new java.awt.Color(255, 255, 255));
         Map_6_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_6_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -649,7 +652,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_6_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_6_5.setBackground(new java.awt.Color(0, 0, 0));
         Map_6_5.setForeground(new java.awt.Color(255, 255, 255));
         Map_6_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_6_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -659,7 +662,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_6_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_6_6.setBackground(new java.awt.Color(0, 0, 0));
         Map_6_6.setForeground(new java.awt.Color(255, 255, 255));
         Map_6_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_6_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -669,7 +672,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_6_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_6_7.setBackground(new java.awt.Color(0, 0, 0));
         Map_6_7.setForeground(new java.awt.Color(255, 255, 255));
         Map_6_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_6_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -679,7 +682,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_7_0.setBackground(new java.awt.Color(255, 255, 255));
+        Map_7_0.setBackground(new java.awt.Color(0, 0, 0));
         Map_7_0.setForeground(new java.awt.Color(255, 255, 255));
         Map_7_0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_7_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -689,7 +692,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_7_1.setBackground(new java.awt.Color(255, 255, 255));
+        Map_7_1.setBackground(new java.awt.Color(0, 0, 0));
         Map_7_1.setForeground(new java.awt.Color(255, 255, 255));
         Map_7_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_7_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -699,7 +702,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_7_2.setBackground(new java.awt.Color(255, 255, 255));
+        Map_7_2.setBackground(new java.awt.Color(0, 0, 0));
         Map_7_2.setForeground(new java.awt.Color(255, 255, 255));
         Map_7_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_7_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -709,7 +712,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_7_3.setBackground(new java.awt.Color(255, 255, 255));
+        Map_7_3.setBackground(new java.awt.Color(0, 0, 0));
         Map_7_3.setForeground(new java.awt.Color(255, 255, 255));
         Map_7_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_7_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -719,7 +722,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_7_4.setBackground(new java.awt.Color(255, 255, 255));
+        Map_7_4.setBackground(new java.awt.Color(0, 0, 0));
         Map_7_4.setForeground(new java.awt.Color(255, 255, 255));
         Map_7_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_7_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -729,7 +732,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_7_5.setBackground(new java.awt.Color(255, 255, 255));
+        Map_7_5.setBackground(new java.awt.Color(0, 0, 0));
         Map_7_5.setForeground(new java.awt.Color(255, 255, 255));
         Map_7_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_7_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -739,7 +742,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_7_6.setBackground(new java.awt.Color(255, 255, 255));
+        Map_7_6.setBackground(new java.awt.Color(0, 0, 0));
         Map_7_6.setForeground(new java.awt.Color(255, 255, 255));
         Map_7_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_7_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -749,7 +752,7 @@ public class GameBoard extends javax.swing.JFrame {
             }
         });
 
-        Map_7_7.setBackground(new java.awt.Color(255, 255, 255));
+        Map_7_7.setBackground(new java.awt.Color(0, 0, 0));
         Map_7_7.setForeground(new java.awt.Color(255, 255, 255));
         Map_7_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Map_7_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/NoStone.png"))); // NOI18N
@@ -782,38 +785,6 @@ public class GameBoard extends javax.swing.JFrame {
                         .addComponent(Map_2_6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Map_2_7))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Map_0_0)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_0_1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_0_2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_0_3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_0_4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_0_5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_0_6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_0_7))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Map_1_0)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_1_1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_1_2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_1_3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_1_4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_1_5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_1_6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_1_7))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(Map_3_0)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -897,22 +868,56 @@ public class GameBoard extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Map_7_6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Map_7_7)))
+                        .addComponent(Map_7_7))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(Map_0_0)
+                            .addComponent(Map_1_0))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(Map_1_1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_1_2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_1_3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_1_4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_1_5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_1_6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_1_7))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(Map_0_1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_0_2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_0_3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_0_4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_0_5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_0_6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Map_0_7)))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(Map_0_7)
-                    .addComponent(Map_0_0)
-                    .addComponent(Map_0_1)
                     .addComponent(Map_0_2)
                     .addComponent(Map_0_3)
                     .addComponent(Map_0_4)
                     .addComponent(Map_0_5)
-                    .addComponent(Map_0_6))
+                    .addComponent(Map_0_6)
+                    .addComponent(Map_0_0)
+                    .addComponent(Map_0_1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Map_1_1)
@@ -983,7 +988,7 @@ public class GameBoard extends javax.swing.JFrame {
                     .addComponent(Map_7_5)
                     .addComponent(Map_7_6)
                     .addComponent(Map_7_7))
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
@@ -1056,7 +1061,7 @@ public class GameBoard extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(blackStonesNumberLabel))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(261, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -1073,321 +1078,586 @@ public class GameBoard extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void Map_0_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_0MouseClicked
-        //  ProizolXod();
-        //  Rascet matricu 8 x 8 ();
-        //  Pererisoviem ekran();
-        Map_0_0.setIcon(changeToBlackStone());
-        GameMain GM = new GameMain();
-        GM.MainMove();
-    }//GEN-LAST:event_Map_0_0MouseClicked
-
-    private void Map_0_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_5MouseClicked
-       Map_0_5.setIcon(changeToBlackStone());
-       GameMain GM = new GameMain();
-       GM.MainMove();
-    }//GEN-LAST:event_Map_0_5MouseClicked
-
-    private void Map_0_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_6MouseClicked
-        Map_0_6.setIcon(changeToBlackStone());
-        GameMain GM = new GameMain();
-        GM.MainMove();
-    }//GEN-LAST:event_Map_0_6MouseClicked
-
-    private void Map_0_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_7MouseClicked
-        Map_0_7.setIcon(changeToBlackStone());
-        GameMain GM = new GameMain();
-        GM.MainMove();
-    }//GEN-LAST:event_Map_0_7MouseClicked
-
-    private void Map_0_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_1MouseClicked
-        Map_0_1.setIcon(changeToBlackStone());
-        GameMain GM = new GameMain();
-        GM.MainMove();
-    }//GEN-LAST:event_Map_0_1MouseClicked
-
-    private void Map_0_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_3MouseClicked
-        Map_0_3.setIcon(changeToBlackStone());
-        GameMain GM = new GameMain();
-        GM.GameArena[0][3] = 1; 
-        GM.MainMove();
-    }//GEN-LAST:event_Map_0_3MouseClicked
-
-    private void Map_0_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_4MouseClicked
-        Map_0_4.setIcon(changeToBlackStone());
-        GameMain GM = new GameMain();
-        GM.MainMove();
-    }//GEN-LAST:event_Map_0_4MouseClicked
-
-    private void Map_0_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_2MouseClicked
-        Map_0_2.setIcon(changeToBlackStone());
-        GameMain GM = new GameMain();
-        GM.MainMove();
-    }//GEN-LAST:event_Map_0_2MouseClicked
-
-    private void Map_1_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_0MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_1_0MouseClicked
-
-    private void Map_1_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_1_1MouseClicked
-
-    private void Map_1_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_2MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_1_2MouseClicked
-
-    private void Map_1_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_3MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_1_3MouseClicked
-
-    private void Map_1_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_4MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_1_4MouseClicked
-
-    private void Map_1_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_5MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_1_5MouseClicked
-
-    private void Map_1_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_1_6MouseClicked
-
-    private void Map_1_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_7MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_1_7MouseClicked
-
-    private void Map_2_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_0MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_2_0MouseClicked
-
-    private void Map_2_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_2_1MouseClicked
-
-    private void Map_2_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_2MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_2_2MouseClicked
-
-    private void Map_2_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_3MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_2_3MouseClicked
-
-    private void Map_2_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_4MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_2_4MouseClicked
-
-    private void Map_2_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_5MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_2_5MouseClicked
-
-    private void Map_2_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_2_6MouseClicked
-
-    private void Map_2_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_7MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_2_7MouseClicked
-
-    private void Map_3_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_0MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_3_0MouseClicked
-
-    private void Map_3_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_3_1MouseClicked
-
-    private void Map_3_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_2MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_3_2MouseClicked
-
-    private void Map_3_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_3MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_3_3MouseClicked
-
-    private void Map_3_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_4MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_3_4MouseClicked
-
-    private void Map_3_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_5MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_3_5MouseClicked
-
-    private void Map_3_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_3_6MouseClicked
-
-    private void Map_3_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_7MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_3_7MouseClicked
-
-    private void Map_4_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_0MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_4_0MouseClicked
-
-    private void Map_4_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_4_1MouseClicked
-
-    private void Map_4_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_2MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_4_2MouseClicked
-
-    private void Map_4_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_3MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_4_3MouseClicked
-
-    private void Map_4_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_4MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_4_4MouseClicked
-
-    private void Map_4_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_5MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_4_5MouseClicked
-
-    private void Map_4_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_4_6MouseClicked
-
-    private void Map_4_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_7MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_4_7MouseClicked
-
-    private void Map_5_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_0MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_5_0MouseClicked
-
-    private void Map_5_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_3MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_5_3MouseClicked
-
-    private void Map_5_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_4MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_5_4MouseClicked
-
-    private void Map_5_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_5MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_5_5MouseClicked
-
-    private void Map_5_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_5_6MouseClicked
-
-    private void Map_5_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_7MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_5_7MouseClicked
-
-    private void Map_6_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_0MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_6_0MouseClicked
-
-    private void Map_5_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_2MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_5_2MouseClicked
-
-    private void Map_6_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_6_1MouseClicked
-
-    private void Map_6_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_2MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_6_2MouseClicked
-
-    private void Map_6_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_3MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_6_3MouseClicked
-
-    private void Map_6_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_4MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_6_4MouseClicked
-
-    private void Map_6_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_5MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_6_5MouseClicked
-
-    private void Map_6_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_6_6MouseClicked
-
-    private void Map_6_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_7MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_6_7MouseClicked
-
-    private void Map_7_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_0MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_7_0MouseClicked
-
-    private void Map_7_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_7_1MouseClicked
-
-    private void Map_7_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_2MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_7_2MouseClicked
-
-    private void Map_7_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_3MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_7_3MouseClicked
-
-    private void Map_7_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_4MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_7_4MouseClicked
-
-    private void Map_7_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_5MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_7_5MouseClicked
-
-    private void Map_7_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_7_6MouseClicked
-
-    private void Map_7_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_7MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_7_7MouseClicked
-
-    private void Map_5_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Map_5_1MouseClicked
-
-    public void changeStonesNumberText(int WhiteStonesNmbr, int BlackStonesNmbr)
-    {
-        GameMain GM = new GameMain();
-        String q = Integer.toString(WhiteStonesNmbr);
-        whiteStonesNumberLabel.setText(q);
-        blackStonesNumberLabel.setText(Integer.toString(BlackStonesNmbr));
-        
-        JOptionPane.showMessageDialog(rootPane, Integer.toString(BlackStonesNmbr));
+    GameMain GM = new GameMain();
+    
+    public void gameStart(boolean Color){
+        GM.newGame(Color);
+        screanUpdate();
     }
     
-    public ImageIcon changeToWhiteStone()
-    {
+    public void screanUpdate(){
+        for(int i = 0; i < 8; i++)
+        {
+            for(int j = 0; j < 8; j++)
+            {
+               if(GM.gameArena[i][j] == 1)
+                {
+                    buttonIconChange(i, j, 1);
+                }
+               else if(GM.gameArena[i][j] == 2)
+                {
+                    buttonIconChange(i, j, 2);
+                } 
+            }
+        }
+        GM.checkStonesNumber();
+        changeStonesNumberText(GM.whiteStonesNmbr, GM.blackStonesNmbr);
+    }
+    
+    public void buttonIconChange(int x, int y, int Color){
+        /*String mapName = "Map_" + x + "_" + y;
+        JLabel label = new JLabel(mapName);
+        if(Color == 1){
+            label.setIcon(changeToBlackStone());
+        }
+        else if(Color == 2){
+            label.setIcon(changeToWhiteStone());
+        }*/
+        if(y == 0 && x == 0 && Color == 1)
+        {
+            Map_0_0.setIcon(changeToBlackStone());
+        }
+        else if(y == 0 && x == 0 && Color == 2)
+        {
+            Map_0_0.setIcon(changeToWhiteStone());
+        }
+        else if(y == 1 && x == 0 && Color == 1)
+        {
+            Map_0_1.setIcon(changeToBlackStone());
+        }
+        else if(y == 1 && x == 0 && Color == 2)
+        {
+            Map_0_1.setIcon(changeToWhiteStone());
+        }
+        else if(y == 2 && x == 0 && Color == 1)
+        {
+            Map_0_2.setIcon(changeToBlackStone());
+        }
+        else if(y == 2 && x == 0 && Color == 2)
+        {
+            Map_0_2.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 0 && Color == 1)
+        {
+            Map_0_3.setIcon(changeToBlackStone());
+        }
+        else if(y == 3 && x == 0 && Color == 2)
+        {
+            Map_0_3.setIcon(changeToWhiteStone());
+        }
+        else if(y == 4 && x == 0 && Color == 1)
+        {
+            Map_0_4.setIcon(changeToBlackStone());
+        }
+        else if(y == 4 && x == 0 && Color == 2)
+        {
+            Map_0_4.setIcon(changeToWhiteStone());
+        }
+        else if(y == 5 && x == 0 && Color == 1)
+        {
+            Map_0_5.setIcon(changeToBlackStone());
+        }
+        else if(y == 5 && x == 0 && Color == 2)
+        {
+            Map_0_5.setIcon(changeToWhiteStone());
+        }
+        else if(y == 6 && x == 0 && Color == 1)
+        {
+            Map_0_6.setIcon(changeToBlackStone());
+        }
+        else if(y == 6 && x == 0 && Color == 2)
+        {
+            Map_0_6.setIcon(changeToWhiteStone());
+        }
+        else if(y == 7 && x == 0 && Color == 1)
+        {
+            Map_0_7.setIcon(changeToBlackStone());
+        }
+        else if(y == 7 && x == 0 && Color == 2)
+        {
+            Map_0_7.setIcon(changeToWhiteStone());
+        }
+        else if(y == 0 && x == 1 && Color == 1)
+        {
+            Map_1_0.setIcon(changeToBlackStone());
+        }
+        else if(y == 0 && x == 1 && Color == 2)
+        {
+            Map_1_0.setIcon(changeToWhiteStone());
+        }
+        else if(y == 1 && x == 1 && Color == 1)
+        {
+            Map_1_1.setIcon(changeToBlackStone());
+        }
+        else if(y == 1 && x == 1 && Color == 2)
+        {
+            Map_1_1.setIcon(changeToWhiteStone());
+        }
+        else if(y == 2 && x == 1 && Color == 1)
+        {
+            Map_1_2.setIcon(changeToBlackStone());
+        }
+        else if(y == 2 && x == 1 && Color == 2)
+        {
+            Map_1_2.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 1 && Color == 1)
+        {
+            Map_1_3.setIcon(changeToBlackStone());
+        }
+        else if(y == 3 && x == 1 && Color == 2)
+        {
+            Map_1_3.setIcon(changeToWhiteStone());
+        }
+        else if(y == 4 && x == 1 && Color == 1)
+        {
+            Map_1_4.setIcon(changeToBlackStone());
+        }
+        else if(y == 4 && x == 1 && Color == 2)
+        {
+            Map_1_4.setIcon(changeToWhiteStone());
+        }
+        else if(y == 5 && x == 1 && Color == 1)
+        {
+            Map_1_5.setIcon(changeToBlackStone());
+        }
+        else if(y == 5 && x == 1 && Color == 2)
+        {
+            Map_1_5.setIcon(changeToWhiteStone());
+        }
+        else if(y == 6 && x == 1 && Color == 1)
+        {
+            Map_1_6.setIcon(changeToBlackStone());
+        }
+        else if(y == 6 && x == 1 && Color == 2)
+        {
+            Map_1_6.setIcon(changeToWhiteStone());
+        }
+        else if(y == 7 && x == 1 && Color == 1)
+        {
+            Map_1_7.setIcon(changeToBlackStone());
+        }
+        else if(y == 7 && x == 1 && Color == 2)
+        {
+            Map_1_7.setIcon(changeToWhiteStone());
+        }
+        else if(y == 0 && x == 2 && Color == 1)
+        {
+            Map_2_0.setIcon(changeToBlackStone());
+        }
+        else if(y == 0 && x == 2 && Color == 2)
+        {
+            Map_2_0.setIcon(changeToWhiteStone());
+        }
+        else if(y == 1 && x == 2 && Color == 1)
+        {
+            Map_2_1.setIcon(changeToBlackStone());
+        }
+        else if(y == 1 && x == 2 && Color == 2)
+        {
+            Map_2_1.setIcon(changeToWhiteStone());
+        }
+        else if(y == 2 && x == 2 && Color == 1)
+        {
+            Map_2_2.setIcon(changeToBlackStone());
+        }
+        else if(y == 2 && x == 2 && Color == 2)
+        {
+            Map_2_2.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 2 && Color == 1)
+        {
+            Map_2_3.setIcon(changeToBlackStone());
+        }
+        else if(y == 3 && x == 2 && Color == 2)
+        {
+            Map_2_3.setIcon(changeToWhiteStone());
+        }
+        else if(y == 4 && x == 2 && Color == 1)
+        {
+            Map_2_4.setIcon(changeToBlackStone());
+        }
+        else if(y == 4 && x == 2 && Color == 2)
+        {
+            Map_2_4.setIcon(changeToWhiteStone());
+        }
+        else if(y == 5 && x == 2 && Color == 1)
+        {
+            Map_2_5.setIcon(changeToBlackStone());
+        }
+        else if(y == 5 && x == 2 && Color == 2)
+        {
+            Map_2_5.setIcon(changeToWhiteStone());
+        }
+        else if(y == 6 && x == 2 && Color == 1)
+        {
+            Map_2_6.setIcon(changeToBlackStone());
+        }
+        else if(y == 6 && x == 2 && Color == 2)
+        {
+            Map_2_6.setIcon(changeToWhiteStone());
+        }
+        else if(y == 7 && x == 2 && Color == 1)
+        {
+            Map_2_7.setIcon(changeToBlackStone());
+        }
+        else if(y == 7 && x == 2 && Color == 2)
+        {
+            Map_2_7.setIcon(changeToWhiteStone());
+        }
+        else if(y == 0 && x == 3 && Color == 1)
+        {
+            Map_3_0.setIcon(changeToBlackStone());
+        }
+        else if(y == 0 && x == 3 && Color == 2)
+        {
+            Map_3_0.setIcon(changeToWhiteStone());
+        }
+        else if(y == 1 && x == 3 && Color == 1)
+        {
+            Map_3_1.setIcon(changeToBlackStone());
+        }
+        else if(y == 1 && x == 3 && Color == 2)
+        {
+            Map_3_1.setIcon(changeToWhiteStone());
+        }
+        else if(y == 2 && x == 3 && Color == 1)
+        {
+            Map_3_2.setIcon(changeToBlackStone());
+        }
+        else if(y == 2 && x == 3 && Color == 2)
+        {
+            Map_3_2.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 3 && Color == 1)
+        {
+            Map_3_3.setIcon(changeToBlackStone());
+        }
+        else if(y == 3 && x == 3 && Color == 2)
+        {
+            Map_3_3.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 3 && Color == 1)
+        {
+            Map_3_4.setIcon(changeToBlackStone());
+        }
+        else if(y == 4 && x == 3 && Color == 2)
+        {
+            Map_3_4.setIcon(changeToWhiteStone());
+        }
+        else if(y == 5 && x == 3 && Color == 1)
+        {
+            Map_3_5.setIcon(changeToBlackStone());
+        }
+        else if(y == 5 && x == 3 && Color == 2)
+        {
+            Map_3_5.setIcon(changeToWhiteStone());
+        }
+        else if(y == 6 && x == 3 && Color == 1)
+        {
+            Map_3_6.setIcon(changeToBlackStone());
+        }
+        else if(y == 6 && x == 3 && Color == 2)
+        {
+            Map_3_6.setIcon(changeToWhiteStone());
+        }
+        else if(y == 7 && x == 3 && Color == 1)
+        {
+            Map_3_7.setIcon(changeToBlackStone());
+        }
+        else if(y == 7 && x == 3 && Color == 2)
+        {
+            Map_3_7.setIcon(changeToWhiteStone());
+        }
+        else if(y == 0 && x == 4 && Color == 1)
+        {
+            Map_4_0.setIcon(changeToBlackStone());
+        }
+        else if(y == 0 && x == 4 && Color == 2)
+        {
+            Map_4_0.setIcon(changeToWhiteStone());
+        }
+        else if(y == 1 && x == 4 && Color == 1)
+        {
+            Map_4_1.setIcon(changeToBlackStone());
+        }
+        else if(y == 1 && x == 4 && Color == 2)
+        {
+            Map_4_1.setIcon(changeToWhiteStone());
+        }
+        else if(y == 2 && x == 4 && Color == 1)
+        {
+            Map_4_2.setIcon(changeToBlackStone());
+        }
+        else if(y == 2 && x == 4 && Color == 2)
+        {
+            Map_4_2.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 4 && Color == 1)
+        {
+            Map_4_3.setIcon(changeToBlackStone());
+        }
+        else if(y == 3 && x == 4 && Color == 2)
+        {
+            Map_4_3.setIcon(changeToWhiteStone());
+        }
+        else if(y == 4 && x == 4 && Color == 1)
+        {
+            Map_4_4.setIcon(changeToBlackStone());
+        }
+        else if(y == 4 && x == 4 && Color == 2)
+        {
+            Map_4_4.setIcon(changeToWhiteStone());
+        }
+        else if(y == 5 && x == 4 && Color == 1)
+        {
+            Map_4_5.setIcon(changeToBlackStone());
+        }
+        else if(y == 5 && x == 4 && Color == 2)
+        {
+            Map_4_5.setIcon(changeToWhiteStone());
+        }
+        else if(y == 6 && x == 4 && Color == 1)
+        {
+            Map_4_6.setIcon(changeToBlackStone());
+        }
+        else if(y == 6 && x == 4 && Color == 2)
+        {
+            Map_4_6.setIcon(changeToWhiteStone());
+        }
+        else if(y == 7 && x == 4 && Color == 1)
+        {
+            Map_4_7.setIcon(changeToBlackStone());
+        }
+        else if(y == 7 && x == 4 && Color == 2)
+        {
+            Map_4_7.setIcon(changeToWhiteStone());
+        }
+        else if(y == 0 && x == 5 && Color == 1)
+        {
+            Map_5_0.setIcon(changeToBlackStone());
+        }
+        else if(y == 0 && x == 5 && Color == 2)
+        {
+            Map_5_0.setIcon(changeToWhiteStone());
+        }
+        else if(y == 1 && x == 5 && Color == 1)
+        {
+            Map_5_1.setIcon(changeToBlackStone());
+        }
+        else if(y == 1 && x == 5 && Color == 2)
+        {
+            Map_5_1.setIcon(changeToWhiteStone());
+        }
+        else if(y == 2 && x == 5 && Color == 1)
+        {
+            Map_5_2.setIcon(changeToBlackStone());
+        }
+        else if(y == 2 && x == 5 && Color == 2)
+        {
+            Map_5_2.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 5 && Color == 1)
+        {
+            Map_5_3.setIcon(changeToBlackStone());
+        }
+        else if(y == 3 && x == 5 && Color == 2)
+        {
+            Map_5_3.setIcon(changeToWhiteStone());
+        }
+        else if(y == 4 && x == 5 && Color == 1)
+        {
+            Map_5_4.setIcon(changeToBlackStone());
+        }
+        else if(y == 4 && x == 5 && Color == 2)
+        {
+            Map_5_4.setIcon(changeToWhiteStone());
+        }
+        else if(y == 5 && x == 5 && Color == 1)
+        {
+            Map_5_5.setIcon(changeToBlackStone());
+        }
+        else if(y == 5 && x == 5 && Color == 2)
+        {
+            Map_5_5.setIcon(changeToWhiteStone());
+        }
+        else if(y == 6 && x == 5 && Color == 1)
+        {
+            Map_5_6.setIcon(changeToBlackStone());
+        }
+        else if(y == 6 && x == 5 && Color == 2)
+        {
+            Map_5_6.setIcon(changeToWhiteStone());
+        }
+        else if(y == 7 && x == 5 && Color == 1)
+        {
+            Map_5_7.setIcon(changeToBlackStone());
+        }
+        else if(y == 7 && x == 5 && Color == 2)
+        {
+            Map_5_7.setIcon(changeToWhiteStone());
+        }
+        else if(y == 0 && x == 6 && Color == 1)
+        {
+            Map_6_0.setIcon(changeToBlackStone());
+        }
+        else if(y == 0 && x == 6 && Color == 2)
+        {
+            Map_6_0.setIcon(changeToWhiteStone());
+        }
+        else if(y == 1 && x == 6 && Color == 1)
+        {
+            Map_6_1.setIcon(changeToBlackStone());
+        }
+        else if(y == 1 && x == 6 && Color == 2)
+        {
+            Map_6_1.setIcon(changeToWhiteStone());
+        }
+        else if(y == 2 && x == 6 && Color == 1)
+        {
+            Map_6_2.setIcon(changeToBlackStone());
+        }
+        else if(y == 2 && x == 6 && Color == 2)
+        {
+            Map_6_2.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 6 && Color == 1)
+        {
+            Map_6_3.setIcon(changeToBlackStone());
+        }
+        else if(y == 3 && x == 6 && Color == 2)
+        {
+            Map_6_3.setIcon(changeToWhiteStone());
+        }
+        else if(y == 4 && x == 6 && Color == 1)
+        {
+            Map_6_4.setIcon(changeToBlackStone());
+        }
+        else if(y == 4 && x == 6 && Color == 2)
+        {
+            Map_6_4.setIcon(changeToWhiteStone());
+        }
+        else if(y == 5 && x == 6 && Color == 1)
+        {
+            Map_6_5.setIcon(changeToBlackStone());
+        }
+        else if(y == 5 && x == 6 && Color == 2)
+        {
+            Map_6_5.setIcon(changeToWhiteStone());
+        }
+        else if(y == 6 && x == 6 && Color == 1)
+        {
+            Map_6_6.setIcon(changeToBlackStone());
+        }
+        else if(y == 6 && x == 6 && Color == 2)
+        {
+            Map_6_6.setIcon(changeToWhiteStone());
+        }
+        else if(y == 7 && x == 6 && Color == 1)
+        {
+            Map_6_7.setIcon(changeToBlackStone());
+        }
+        else if(y == 7 && x == 6 && Color == 2)
+        {
+            Map_6_7.setIcon(changeToWhiteStone());
+        }
+        else if(y == 0 && x == 7 && Color == 1)
+        {
+            Map_7_0.setIcon(changeToBlackStone());
+        }
+        else if(y == 0 && x == 7 && Color == 2)
+        {
+            Map_7_0.setIcon(changeToWhiteStone());
+        }
+        else if(y == 1 && x == 7 && Color == 1)
+        {
+            Map_7_1.setIcon(changeToBlackStone());
+        }
+        else if(y == 1 && x == 7 && Color == 2)
+        {
+            Map_7_1.setIcon(changeToWhiteStone());
+        }
+        else if(y == 2 && x == 7 && Color == 1)
+        {
+            Map_7_2.setIcon(changeToBlackStone());
+        }
+        else if(y == 2 && x == 7 && Color == 2)
+        {
+            Map_7_2.setIcon(changeToWhiteStone());
+        }
+        else if(y == 3 && x == 7 && Color == 1)
+        {
+            Map_7_3.setIcon(changeToBlackStone());
+        }
+        else if(y == 3 && x == 7 && Color == 2)
+        {
+            Map_7_3.setIcon(changeToWhiteStone());
+        }
+        else if(y == 4 && x == 7 && Color == 1)
+        {
+            Map_7_4.setIcon(changeToBlackStone());
+        }
+        else if(y == 4 && x == 7 && Color == 2)
+        {
+            Map_7_4.setIcon(changeToWhiteStone());
+        }
+        else if(y == 5 && x == 7 && Color == 1)
+        {
+            Map_7_5.setIcon(changeToBlackStone());
+        }
+        else if(y == 5 && x == 7 && Color == 2)
+        {
+            Map_7_5.setIcon(changeToWhiteStone());
+        }
+        else if(y == 6 && x == 7 && Color == 1)
+        {
+            Map_7_6.setIcon(changeToBlackStone());
+        }
+        else if(y == 6 && x == 7 && Color == 2)
+        {
+            Map_7_6.setIcon(changeToWhiteStone());
+        }
+        else if(y == 7 && x == 7 && Color == 1)
+        {
+            Map_7_7.setIcon(changeToBlackStone());
+        }
+        else if(y == 7 && x == 7 && Color == 2)
+        {
+            Map_7_7.setIcon(changeToWhiteStone());
+        }
+    }
+    
+    public void changeStonesNumberText(int WhiteStonesNmbr, int BlackStonesNmbr){
+        String white = Integer.toString(WhiteStonesNmbr);
+        String black = Integer.toString(BlackStonesNmbr);
+        blackStonesNumberLabel.setText(black);
+        whiteStonesNumberLabel.setText(white);
+    }
+    
+    public ImageIcon changeToWhiteStone(){
         String currentDirString = System.getProperty("user.dir");
         String iconName = currentDirString + "\\src\\src\\WhiteStone.png";
         ImageIcon icon = new ImageIcon(iconName);
         return icon;
     }
     
-    public ImageIcon changeToBlackStone()
-    {
+    public ImageIcon changeToBlackStone(){
         String currentDirString = System.getProperty("user.dir");
         String iconName = currentDirString + "\\src\\src\\BlackStone.png";
         ImageIcon icon = new ImageIcon(iconName);
         return icon;
     }
     
-    
-    public void changePlayerName(boolean changePlayerColor)
-    {
+    public void changePlayerName(boolean changePlayerColor){
         if(changePlayerColor == true)
         {
             playerNameLabelYour.setText("Black");
@@ -1400,6 +1670,774 @@ public class GameBoard extends javax.swing.JFrame {
         }
     }
     
+    private void Map_0_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_0MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(0, 0, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(0, 0, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_0_0MouseClicked
+
+    private void Map_0_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_5MouseClicked
+       if(GM.move == true)
+        {
+            GM.mapSlotPicked(0, 5, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(0, 5, 2);
+        }
+       screanUpdate();
+    }//GEN-LAST:event_Map_0_5MouseClicked
+
+    private void Map_0_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_6MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(0, 6, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(0, 6, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_0_6MouseClicked
+
+    private void Map_0_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_7MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(0, 7, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(0, 7, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_0_7MouseClicked
+
+    private void Map_0_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_1MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(0, 1, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(0, 1, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_0_1MouseClicked
+
+    private void Map_0_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_3MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(0, 3, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(0, 3, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_0_3MouseClicked
+
+    private void Map_0_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_4MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(0, 4, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(0, 4, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_0_4MouseClicked
+
+    private void Map_0_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_0_2MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(0, 2, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(0, 2, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_0_2MouseClicked
+
+    private void Map_1_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_0MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(1, 0, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(1, 0, 2);    
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_1_0MouseClicked
+
+    private void Map_1_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_1MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(1, 1, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(1, 1, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_1_1MouseClicked
+
+    private void Map_1_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_2MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(1, 2, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(1, 2, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_1_2MouseClicked
+
+    private void Map_1_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_3MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(1, 3, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(1, 3, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_1_3MouseClicked
+
+    private void Map_1_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_4MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(1, 4, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(1, 4, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_1_4MouseClicked
+
+    private void Map_1_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_5MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(1, 5, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(1, 5, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_1_5MouseClicked
+
+    private void Map_1_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_6MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(1, 6, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(1, 6, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_1_6MouseClicked
+
+    private void Map_1_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_1_7MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(1, 7, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(1, 7, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_1_7MouseClicked
+
+    private void Map_2_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_0MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(2, 0, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(2, 0, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_2_0MouseClicked
+
+    private void Map_2_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_1MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(2, 1, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(2, 1, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_2_1MouseClicked
+
+    private void Map_2_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_2MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(2, 2, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(2, 2, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_2_2MouseClicked
+
+    private void Map_2_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_3MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(2, 3, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(2, 3, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_2_3MouseClicked
+
+    private void Map_2_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_4MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(2, 4, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(2, 4, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_2_4MouseClicked
+
+    private void Map_2_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_5MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(2, 5, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(2, 5, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_2_5MouseClicked
+
+    private void Map_2_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_6MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(2, 6, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(2, 6, 2);   
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_2_6MouseClicked
+
+    private void Map_2_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_2_7MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(2, 7, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(2, 7, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_2_7MouseClicked
+
+    private void Map_3_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_0MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(3, 0, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(3, 0, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_3_0MouseClicked
+
+    private void Map_3_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_1MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(3, 1, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(3, 1, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_3_1MouseClicked
+
+    private void Map_3_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_2MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(3, 2, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(3, 2, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_3_2MouseClicked
+
+    private void Map_3_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_3MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(3, 3, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(3, 3, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_3_3MouseClicked
+
+    private void Map_3_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_4MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(3, 4, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(3, 4, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_3_4MouseClicked
+
+    private void Map_3_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_5MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(3, 5, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(3, 5, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_3_5MouseClicked
+
+    private void Map_3_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_6MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(3, 6, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(3, 6, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_3_6MouseClicked
+
+    private void Map_3_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_3_7MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(3, 7, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(3, 7, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_3_7MouseClicked
+
+    private void Map_4_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_0MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(4, 0, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(4, 0, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_4_0MouseClicked
+
+    private void Map_4_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_1MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(4, 1, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(4, 1, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_4_1MouseClicked
+
+    private void Map_4_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_2MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(4, 2, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(4, 2, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_4_2MouseClicked
+
+    private void Map_4_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_3MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(4, 3, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(4, 3, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_4_3MouseClicked
+
+    private void Map_4_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_4MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(4, 4, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(4, 4, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_4_4MouseClicked
+
+    private void Map_4_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_5MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(4, 5, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(4, 5, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_4_5MouseClicked
+
+    private void Map_4_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_6MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(4, 6, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(4, 6, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_4_6MouseClicked
+
+    private void Map_4_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_4_7MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(4, 7, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(4, 7, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_4_7MouseClicked
+
+    private void Map_5_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_0MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(5, 0, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(5, 0, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_5_0MouseClicked
+
+    private void Map_5_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_3MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(5, 3, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(5, 3, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_5_3MouseClicked
+
+    private void Map_5_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_4MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(5, 4, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(5, 4, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_5_4MouseClicked
+
+    private void Map_5_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_5MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(5, 5, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(5, 5, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_5_5MouseClicked
+
+    private void Map_5_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_6MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(5, 6, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(5, 6, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_5_6MouseClicked
+
+    private void Map_5_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_7MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(5, 7, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(5, 7, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_5_7MouseClicked
+
+    private void Map_6_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_0MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(6, 0, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(6, 0, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_6_0MouseClicked
+
+    private void Map_5_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_2MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(5, 2, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(5, 2, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_5_2MouseClicked
+
+    private void Map_6_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_1MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(6, 1, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(6, 1, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_6_1MouseClicked
+
+    private void Map_6_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_2MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(6, 2, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(6, 2, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_6_2MouseClicked
+
+    private void Map_6_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_3MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(6, 3, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(6, 3, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_6_3MouseClicked
+
+    private void Map_6_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_4MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(6, 4, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(6, 4, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_6_4MouseClicked
+
+    private void Map_6_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_5MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(6, 5, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(6, 5, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_6_5MouseClicked
+
+    private void Map_6_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_6MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(6, 6, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(6, 6, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_6_6MouseClicked
+
+    private void Map_6_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_6_7MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(6, 7, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(6, 7, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_6_7MouseClicked
+
+    private void Map_7_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_0MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(7, 0, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(7, 0, 2);  
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_7_0MouseClicked
+
+    private void Map_7_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_1MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(7, 1, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(7, 1, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_7_1MouseClicked
+
+    private void Map_7_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_2MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(7, 2, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(7, 2, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_7_2MouseClicked
+
+    private void Map_7_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_3MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(7, 3, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(7, 3, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_7_3MouseClicked
+
+    private void Map_7_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_4MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(7, 4, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(7, 4, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_7_4MouseClicked
+
+    private void Map_7_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_5MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(7, 5, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(7, 5, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_7_5MouseClicked
+
+    private void Map_7_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_6MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(7, 6, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(7, 6, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_7_6MouseClicked
+
+    private void Map_7_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_7_7MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(7, 7, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(7, 7, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_7_7MouseClicked
+
+    private void Map_5_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Map_5_1MouseClicked
+        if(GM.move == true)
+        {
+            GM.mapSlotPicked(5, 1, 1);
+        }
+        else if(GM.move == false)
+        {
+            GM.mapSlotPicked(5, 1, 2);
+        }
+        screanUpdate();
+    }//GEN-LAST:event_Map_5_1MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -1438,9 +2476,9 @@ public class GameBoard extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JLabel Map_0_0;
     public javax.swing.JLabel Map_0_1;
-    private javax.swing.JLabel Map_0_2;
-    private javax.swing.JLabel Map_0_3;
-    private javax.swing.JLabel Map_0_4;
+    public javax.swing.JLabel Map_0_2;
+    public javax.swing.JLabel Map_0_3;
+    public javax.swing.JLabel Map_0_4;
     public javax.swing.JLabel Map_0_5;
     public javax.swing.JLabel Map_0_6;
     public javax.swing.JLabel Map_0_7;
