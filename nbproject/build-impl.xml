@@ -1768,8 +1768,4 @@ is divided into following sections:
             </propertyset>
         </ant>
     </target>
-  <properties>
-    <sonar.organization>edvard-fedorovic</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  </properties>
 </project>
