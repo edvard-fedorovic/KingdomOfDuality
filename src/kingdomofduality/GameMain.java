@@ -29,14 +29,9 @@ public class GameMain {
                 gameArena[i][y] = 0;
             }
         }
-        gameArena[3][3] = 1;
-        gameArena[3][4] = 2;
-        gameArena[4][3] = 2;
-        gameArena[4][4] = 1;
-        // Taip bus geriau. Is karto savo vietoje. Ir nereikia kurti nereikalinga metoda.
     }
     
-    public void CheckStonesNumber(){
+    public void checkStonesNumber(){
         whiteStonesNmbr = 0;
         blackStonesNmbr = 0;
         for( int x = 0; x < 8; x++ )
@@ -55,23 +50,21 @@ public class GameMain {
         }
     }
     
-    /*public void placeStartingStones(){
+    public void placeStartingStones(){
         gameArena[3][3] = 1;
         gameArena[3][4] = 2;
         gameArena[4][3] = 2;
         gameArena[4][4] = 1;
-    }*/
-    // Galima sutaupyti vietos. Gali vietoj to, kad rasyti placeStartingStones kaip atskyra metoda, irasyti ja iskarto i createArena metoda.
-    // Vis tiek bus naudojama tik viena karta pradedant zaidima.
+    }
     
-    public void BlackMove(){
+    public void blackMove(){
         if(playerColor == 2){
             int xyCoordinates[] = aiDecision(1);
             mapSlotPicked(xyCoordinates[0], xyCoordinates[1], 1);
         }
     }
     
-    public int [] AiDecision(int Color){
+    public int [] aiDecision(int Color){
         int bestPossiblemove[] = new int[2];
             int mostPoints = 0;
             bestPossiblemove[0] = 0;
@@ -89,14 +82,14 @@ public class GameMain {
         return bestPossiblemove;    
     }
     
-    public void WhiteMove(){
+    public void whiteMove(){
         if(playerColor == 1){
-            int xyCoordinates[] = AiDecision(2);
+            int xyCoordinates[] = aiDecision(2);
             mapSlotPicked(xyCoordinates[0], xyCoordinates[1], 2);
         }
     }
     
-    public boolean CheckGameFinish(){
+    public boolean checkGameFinish(){
         if(move == true){
             if(gameCheckIfpointMatrixIsEmpty(1) == true){
                 return true;
